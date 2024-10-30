@@ -1,0 +1,38 @@
+{
+	"scarlet-black-shadow": {
+		"id": "scarlet-black-shadow",
+		"name": "Scarlet: Black Shaodw",
+		"rarity": "SSR",
+		"burst": 3,
+		"element": "wind",
+		"weapon": "RL",
+		"type": "attacker",
+		"manufacturer": "pilgrim",
+		"squad": "goddess",
+		"tags": ["phased_skill", "full_charge", "max_ammo_up", "reload"]
+	},
+	"liter": {
+		"id": "liter",
+		"name": "Liter",
+		"rarity": "SSR",
+		"burst": 1,
+		"element": "iron",
+		"weapon": "SMG",
+		"type": "supporter",
+		"manufacturer": "missilis",
+		"squad": "mighty tools",
+		"tags": ["phased_skill", "cdr", "max_ammo_up", "crit_dmg_up", "atk_up", "cover_recovery"]
+	},
+	"modernia": {
+		"id": "modernia",
+		"name": "Modernia",
+		"rarity": "SSR",
+		"burst": 3,
+		"element": "fire",
+		"weapon": "MG",
+		"type": "attacker",
+		"manufacturer": "pilgrim",
+		"squad": "heretic",
+		"tags": ["crit_dmg_up", "max_ammo_down", "hit_rate_up", "atk_up", "burst_duration_up", "infinite_ammo", "auto_aim"]
+	}
+}
