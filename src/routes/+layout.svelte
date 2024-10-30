@@ -7,7 +7,7 @@
 </script>
 
 <Header />
-<div class="flex min-h-screen flex-col items-center">
+<div class="flex min-h-screen flex-col items-center bg-gradient-to-b from-slate-900 from-80% to-violet-950">
 	<div class="w-full pt-20 max-w-screen-xl px-3">
 		{@render children()}
 	</div>
