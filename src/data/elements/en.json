@@ -1,0 +1,22 @@
+{
+  "fire": {
+    "id": "fire",
+    "name": "Fire"
+  },
+  "water": {
+    "id": "water",
+    "name": "Water"
+  },
+  "wind": {
+    "id": "wind",
+    "name": "Wind"
+  },
+  "Iron": {
+    "id": "iron",
+    "name": "Iron"
+  },
+  "electric": {
+    "id": "electric",
+    "name": "Electric"
+  }
+}

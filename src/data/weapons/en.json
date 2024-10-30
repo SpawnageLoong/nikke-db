@@ -1,0 +1,26 @@
+{
+  "ar": {
+    "id": "ar",
+    "name": "Assault Rifle"
+  },
+  "rl": {
+    "id": "rl",
+    "name": "Rocket Launcher"
+  },
+  "smg": {
+    "id": "smg",
+    "name": "Submachine Gun"
+  },
+  "mg": {
+    "id": "mg",
+    "name": "Machine Gun"
+  },
+  "sg": {
+    "id": "sg",
+    "name": "Shotgun"
+  },
+  "sr": {
+    "id": "sr",
+    "name": "Sniper Rifle"
+  }
+}
