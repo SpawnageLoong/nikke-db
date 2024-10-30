@@ -4,15 +4,13 @@
 	import XIcon from '@iconify-icons/mdi/multiply';
 
 	export let character: Character;
-	export let showTotal = false;
-	export let total = 0;
 </script>
 
 <a
 	href="/characters/{character.id}"
 	class="rarity relative cursor-pointer {character.rarity === "SSR"
 		? 'rarity-ssr'
-		: 'rarity-sr'} {showTotal && total === 0 ? 'brightness-50' : ''}"
+		: 'rarity-sr'}"
 >
 	<div class="background" ></div>
 	<img
@@ -24,7 +22,7 @@
 	/>
 	<span
 		class="absolute bottom-1 left-0 right-0 text-center text-lg font-semibold leading-none text-white"
-		>{character.id}</span
+		>{character.name}</span
 	>
 	{#if character.id !== 'trailblazer'}
 		<img
@@ -37,11 +35,6 @@
 			alt=burst-{character.burst}
 			class="absolute left-1 top-9 h-6 w-6 rounded-full bg-black/20"
 		/>
-	{/if}
-	{#if total > 0}
-		<span class="absolute right-1 top-1 font-medium text-white/80"
-			><Icon class="mb-0.5 inline" icon={XIcon} />{total}</span
-		>
 	{/if}
 </a>
 
