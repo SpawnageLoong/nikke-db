@@ -4,7 +4,12 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+			colors: {
+				ssr: '#fbcd74',
+				sr : '#b087ff'
+			}
+		}
 	},
 
 	plugins: [require("daisyui"),]
