@@ -8,7 +8,9 @@
 
 <Header />
 <div class="flex min-h-screen flex-col items-center">
-	{@render children()}
+	<div class="w-full pt-20 max-w-screen-xl px-3">
+		{@render children()}
+	</div>
 	<div class="flex-1" ></div>
 	<footer
 			class="mt-4 flex w-full max-w-screen-xl items-center justify-between px-3 py-4 text-white/40"
